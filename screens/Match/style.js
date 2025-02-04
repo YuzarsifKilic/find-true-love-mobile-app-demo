@@ -50,6 +50,32 @@ const style = StyleSheet.create({
   actionIconsContainer: {
     flexDirection: 'row',
   },
+  likeLabel: {
+    position: 'absolute',
+    top: 20,
+    left: 20,
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#22C55E',
+    transform: [{rotate: '20deg'}],
+    borderWidth: 2,
+    borderColor: '#22C55E',
+    paddingHorizontal: 10,
+    borderRadius: 5,
+  },
+  dislikeLabel: {
+    position: 'absolute',
+    top: 20,
+    right: 20,
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#FF0000',
+    transform: [{rotate: '-20deg'}],
+    borderWidth: 2,
+    borderColor: '#FF0000',
+    paddingHorizontal: 10,
+    borderRadius: 5,
+  },
 });
 
 export default style;
